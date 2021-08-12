@@ -1,0 +1,242 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2021-08-12T18:46:00.959Z",
+    "__export_source": "insomnia.desktop.app:v2021.4.1",
+    "resources": [
+        {
+            "_id": "req_57288cc9dc944a35bcb6e4d7fc0061ea",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628778577963,
+            "created": 1628712264941,
+            "url": "localhost:3000/position",
+            "name": "save gps data for user",
+            "description": "",
+            "method": "PUT",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"user_id\": 1,\n\t\"latitude\": 45.032537,\n\t\"longitude\": 41.922795\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1628712264941,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_965e647f90c54ab8b787491163592fd0",
+            "parentId": null,
+            "modified": 1628712248380,
+            "created": 1628712248380,
+            "name": "sensus",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_f212c937fc07447f90b5f15a1e1d8b53",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628778509829,
+            "created": 1628718500031,
+            "url": "localhost:3000/123",
+            "name": "404",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"ID\": 1\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1626738166680.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_e5b0ba7e469d4f5f807621bd9ef63a1c",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628792506968,
+            "created": 1628713753085,
+            "url": "localhost:3000/position",
+            "name": "get gps data by id and date",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"user_id\": 1,\n\t\"startDate\": \"2021-08-12T14:22:22.391Z\",\n\t\"endDate\": \"2021-08-12T15:18:18.547Z\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1624764068420,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b4e5c851e1124c898c39a9a40082869a",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628793931932,
+            "created": 1628793928788,
+            "url": "localhost:3000/position",
+            "name": "get gps data by id and end date",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"user_id\": 1,\n\t\"endDate\": \"2021-08-12T15:18:18.547Z\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1624270543854.875,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_e5ef445a45ce4f25ab6cbd47c2ff35d0",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628793917199,
+            "created": 1628793912275,
+            "url": "localhost:3000/position",
+            "name": "get gps data by id and start date",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"user_id\": 1,\n\t\"startDate\": \"2021-08-12T14:22:22.391Z\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1623777019289.75,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_2e6144d7272747ae9c70ed54d764ce6a",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628782915252,
+            "created": 1628782911177,
+            "url": "localhost:3000/position",
+            "name": "get gps data by id",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"user_id\": 1\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json",
+                    "id": "pair_c1c168f5a8774e7aa4dad79d07770e15"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1622789970159.5,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_41cc0dc47ddf5d98a0ebcb67ad66db13d0e0c3ed",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628712248486,
+            "created": 1628712248486,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1628712248486,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_41cc0dc47ddf5d98a0ebcb67ad66db13d0e0c3ed",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628712248488,
+            "created": 1628712248488,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "spc_0fc0c5e5e0ae4800b7f8b9209a0e3c17",
+            "parentId": "wrk_965e647f90c54ab8b787491163592fd0",
+            "modified": 1628712248387,
+            "created": 1628712248387,
+            "fileName": "sensus",
+            "contents": "",
+            "contentType": "yaml",
+            "_type": "api_spec"
+        }
+    ]
+}
