@@ -1,4 +1,4 @@
-const Pool = require("pg").Pool;
+const { Pool } = require("pg");
 
 // подключение к базе данных и экспорт инстанса
 const pool = new Pool({
